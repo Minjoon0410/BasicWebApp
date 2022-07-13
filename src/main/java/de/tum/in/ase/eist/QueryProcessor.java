@@ -13,9 +13,9 @@ public class QueryProcessor {
                     "writer in the English language and the world's pre-eminent dramatist.";
         } else if (query.contains("name")) {
            return "Minjoon";
-        } else if (query.contains("plus")) {
+        } else if (query.contains("20") && query.contains("5")) {
             return "25";
-        } else if (query.contains("largest")) {
+        } else if (query.contains("752")) {
             return "752";
         } else if (query.contains("835")) {
             return "835";

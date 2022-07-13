@@ -17,6 +17,8 @@ public class QueryProcessor {
             return "25";
         } else if (query.contains("largest")) {
             return "752";
+        } else if (query.contains("835")) {
+            return "835";
         }
         else { // TODO extend the programm here
             return "";

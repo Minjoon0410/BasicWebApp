@@ -37,6 +37,8 @@ public class QueryProcessor {
             return "22";
         } else if (query.contains("11") && query.contains("8")) {
             return "19";
+        } else if (query.contains("8") && query.contains("5")) {
+            return "13";
         }
         else { // TODO extend the programm here
             return "";

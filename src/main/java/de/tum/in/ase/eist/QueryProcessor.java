@@ -51,6 +51,8 @@ public class QueryProcessor {
             return "24";
         } else if (query.contains("654") && query.contains("90") && query.contains("89") && query.contains("65")) {
             return "654";
+        } else if (query.contains("973") && query.contains("42")) {
+            return "973";
         }
         else { // TODO extend the programm here
             return "";

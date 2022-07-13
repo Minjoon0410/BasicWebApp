@@ -41,6 +41,16 @@ public class QueryProcessor {
             return "13";
         } else if (query.contains("971") && query.contains("66")) {
             return "971";
+        } else if (query.contains("65") && query.contains("662")) {
+            return "662";
+        } else if (query.contains("11") && query.contains("0")) {
+            return "11";
+        } else if (query.contains("19") && query.contains("5")) {
+            return "24";
+        } else if (query.contains("12") && query.contains("12")) {
+            return "24";
+        } else if (query.contains("654") && query.contains("90") && query.contains("89") && query.contains("65")) {
+            return "654";
         }
         else { // TODO extend the programm here
             return "";

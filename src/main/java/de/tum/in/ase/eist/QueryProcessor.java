@@ -15,6 +15,8 @@ public class QueryProcessor {
            return "Minjoon";
         } else if (query.contains("plus")) {
             return "25";
+        } else if (query.contains("largest")) {
+            return "752";
         }
         else { // TODO extend the programm here
             return "";
